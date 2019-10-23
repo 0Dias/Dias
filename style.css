@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Roboto;
+}
+
+h1 a {
+    color:black;
+    text-shadow: 1px 1px 2px black, 0 0 1em white;
+}
+
+html{
+    background:url(img/cool-background\ \(1\).png);
+}
+
+a {
+    text-decoration: none;
+}
+
+ol a:visited{
+    color:grey;
+}
+
+li {
+    float: left;
+    font-size: 20px;
+    margin-top:10px;
+    margin-bottom: 10px; 
+}
+
+ol a:hover {
+    color:grey;
+    transition: 1s;
+}
+
+div.icons {
+    position: absolute;
+}
+
+div.icons img {
+    margin-left: 500px;
+}
+
+ol {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.head1{
+    background:rgba(180, 174, 174, 0.7);
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+.h1head{
+    font-size: 50px;
+}
+
+form input {
+    border-radius:10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.searchp {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+div.bodyblocks{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+div .first, .second , .third, .fourth {
+    border-radius: 10px;;
+    background-color:rgba(182, 182, 182, 0.8);
+}
+
+div.subblock h2 {
+    margin-top: 10px;
+}
+
+div.bodyblocks img {
+    border-radius: 10px;;
+    margin-right:20px ;
+    margin-left:20px ;
+    margin-top: 20px;
+}
+
+div.bodyblocks p {
+    font-size:20px;
+    font-weight: bold;
+
+}
+
+div.subblock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background:rgba(255,255, 255, 0.9);
+}
+
+div.subblock img {
+    margin: 20px;    
+    height: 180px;;
+}
+
+div.subblock div.subbl {
+    margin: 5px;
+    border-radius: 10px;
+    background:rgba(138, 138, 138, 0.8);
+}
